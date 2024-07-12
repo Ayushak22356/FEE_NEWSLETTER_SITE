@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: hsl(239, 78%, 48%);
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header .logo {
+            width: 80px;
+            height: 80px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+        }
+
+        .news-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 1em;
+            padding: 1em;
+            width: calc(33% - 2em);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+
+        .news-item:hover {
+            transform: scale(1.05);
+        }
+
+        .news-item img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1em;
+        }
+
+        .news-content {
+            text-align: left;
+            width: 100%;
+        }
+
+        .news-content h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .news-content p {
+            margin: 0.5em 0 0;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="D:\kya hua bhai.doc\FEE-II\newsletter\Screenshot 2024-07-12 173924.png" alt="Logo" class="logo" height="120px" width="120px">
+        <h1>News Gallery</h1>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="news-item">
+                <img src="D:\kya hua bhai.doc\FEE-II\newsletter\news1.jpg" alt="News Image 1" height="200px" width="200px">
+                <div class="news-content">
+                    <h3>Keir Starmer Is UK's New Prime Minister After Labour's Landslide Election Victory</h3>
+                    <p>LONDON, ENGLAND - JULY 5: Labour leader and incoming Prime Minister Sir Keir Starmer speaks to the media as he enters 10 Downing Street following Labour's landslide election victory on July 5, 2024 in London, England. The Labour Party won a landslide victory in the 2024 general election, ending 14 years of Conservative government.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="D:\kya hua bhai.doc\FEE-II\newsletter\news2.png" alt="News Image 2" height="200px" width="200px">
+                <div class="news-content">
+                    <h3>Gautam Gambhir Appointed as New Head Coach of Team India</h3>
+                    <p>New Delhi,India-In a significant development for Indian cricket, former opening batter Gautam Gambhir has been appointed as the new head coach of the Indian men’s cricket team. Gambhir, a World Cup winner, will take charge of the upcoming away series against Sri Lanka, which includes 3 ODIs and 3 T20Is starting on July 27, 2024. His appointment comes after Rahul Dravid’s successful tenure, during which India clinched the ICC Men’s T20 World Cup in 2024 and finished as runners-up in the ICC 50-over World Cup in 2023 and the ICC World Test Championship in 2023.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="D:\kya hua bhai.doc\FEE-II\newsletter\news3.jpg" alt="News Image 3" height="200px" width="200px">
+                <div class="news-content">
+                    <h3>Jasmine Paolini beats Donna Vekic to reach Wimbledon final
+                    </h3>
+                    <p>Italy's Jasmine Paolini reacts as she takes part in a training session on the Aorangi practise courts on the eve of her women's final tennis match, on the twelfth day of the 2024 Wimbledon Championships at The All England Lawn Tennis and Croquet Club in Wimbledon, southwest London, on July 12, 2024.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="D:\kya hua bhai.doc\FEE-II\newsletter\news4.png" alt="News Image 4" height="200px" width="200px">
+                <div class="news-content">
+                    <h3>Big Supreme Court Relief For Arvind Kejriwal In Delhi Liquor Policy Case</h3>
+                    <p>
+
+                        New Delhi: The Supreme Court has granted Delhi Chief Minister Arvind Kejriwal bail in a money-laundering case by the Enforcement Directorate linked to the Delhi liquor policy. But Mr Kejriwal will remain in jail as he is currently being questioned by the Central Bureau of Investigation (CBI) in a separate case.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="D:\kya hua bhai.doc\FEE-II\newsletter\news5.png" alt="News Image 5" height="200px" width="200px">
+                <div class="news-content">
+                    <h3>Emergency: Centre declares June 25 as 'Samvidhaan Hatya Diwas'</h3>
+                    <p>Home minister Amit Shah said the decision made by Prime Minister Narendra Modi is intended to honour the spirit of millions who struggled to revive democracy. The BJP-led Central government on Friday declared that June 25 will be observed as the Samvidhaan Hatya Diwas to mark the imposition of the Emergency.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>latest News at a glance</h4>
+        <p>Contact us at: newsexpress@gmail.com</p>
+    </footer>
+</body>
+</html>
